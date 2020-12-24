@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -29,6 +29,6 @@ public class ButtonManager : MonoBehaviour
 
 /*     void DeleteObject()
     {
-        furniture.SetActive(false);
+        DataHandler.Instance.furniture.SetActive(false);
     } */
 }

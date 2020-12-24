@@ -8,7 +8,8 @@ public class InputManager : MonoBehaviour
     [SerializeField] private Camera arCam;
     [SerializeField] private ARRaycastManager _raycastManager;
 
-    private List<ARRaycastHit> _hits = new List <ARRaycastHit>();
+    private List<ARRaycastHit> _hits = new List<ARRaycastHit>();
+
     // Start is called before the first frame update
     void Start()
     {
